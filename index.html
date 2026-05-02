@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quick Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="haeder-container">
+      <h1>Quick Quiz</h1>
+    </div>
+    <div id="quiz" >
+      <div class="quiz-container" id="quiz-container">
+      <h2 id="question">Question text</h2>
+
+      <div class="options">
+        <label
+          ><input type="radio" name="answer" class="answer" id="a" />
+          <span id="a_text"></span
+        ></label>
+        <label
+          ><input type="radio" name="answer" class="answer" id="b" />
+          <span id="b_text"></span
+        ></label>
+        <label
+          ><input type="radio" name="answer" class="answer" id="c" />
+          <span id="c_text"></span
+        ></label>
+        <label
+          ><input type="radio" name="answer" class="answer" id="d" />
+          <span id="d_text"></span
+        ></label>
+      </div>
+
+      <button id="next">Next</button>
+      <p id="feedback"></p>
+    </div>
+
+    <div id="result" class="hidden">
+      <h2 id="scoreText"></h2>
+      <button onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
