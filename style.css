@@ -150,7 +150,7 @@ button:active {
 
 @media (max-width: 480px) {
   body {
-    padding: 30px 15px;
+    padding: auto;
     height: 100vh;
   }
   h1 {
