@@ -159,12 +159,9 @@ button:active {
   #quiz {
      padding: auto;
   }
-   .quiz-container {
-    padding: auto;
-  }
   .quiz-container,
   #result {
-    padding: 25px 20px;
+     padding: auto;
   }
   #question {
     font-size: 1.15rem;
