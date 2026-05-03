@@ -159,6 +159,9 @@ button:active {
   #quiz {
     height: 80vh;
   }
+   .quiz-container {
+    height: 80vh;
+  }
   .quiz-container,
   #result {
     padding: 25px 20px;
