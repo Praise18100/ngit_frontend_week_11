@@ -149,8 +149,15 @@ button:active {
 }
 
 @media (max-width: 480px) {
+  body {
+    padding: 30px 15px;
+    height: 100vh;
+  }
   h1 {
     font-size: 2rem;
+  }
+  #quiz {
+    height: 80vh;
   }
   .quiz-container,
   #result {
