@@ -157,10 +157,10 @@ button:active {
     font-size: 2rem;
   }
   #quiz {
-    height: 80vh;
+     padding: auto;
   }
    .quiz-container {
-    height: 80vh;
+    padding: auto;
   }
   .quiz-container,
   #result {
