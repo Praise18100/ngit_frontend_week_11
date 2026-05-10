@@ -1,4 +1,7 @@
-##  Difference Between == and === in JavaScript
+#  A Quick Quiz Application
+## A Quick quiz application built with HTML, CSS and JavaScript
+
+### Difference Between == and === in JavaScript
 
 ### ==
 - Compares values ONLY
